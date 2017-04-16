@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_traning_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus.androidhw1dictionaryquiz.TraningScreen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/textengword"
+        android:onClick="ChangeMethod"
+        android:clickable="true"
+        android:gravity="center"
+        android:background="#ccc8c8"
+        android:textSize="60dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/textturword"
+        android:gravity="center"
+        android:onClick="ChangeMethod"
+        android:clickable="true"
+        android:background="#914141"
+        android:textSize="60dp"
+        android:textStyle="italic|bold"
+        />
+
+
+</LinearLayout>
